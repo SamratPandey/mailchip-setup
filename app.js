@@ -37,7 +37,7 @@ app.post("/", function (req, res) {
   const url = "https://us18.api.mailchimp.com/3.0/lists/1acf15f62e";
   const options = {
     method: "POST",
-    auth: "samrat:8b659079da55e8a3f875f9b040d80817-us18",
+  auth: "username:mailchip apikey",//add any username in the place of username: and your mailchip apikey in the place of apikey
   };
 
   const request = https.request(url, options, function (response) {
